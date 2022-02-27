@@ -1,0 +1,8 @@
+version: "3"
+services:
+  playwright:
+    build: ./
+    volumes:
+      - ./tests:/usr/src/app/tests
+      - /usr/src/app/node_modules
+    working_dir: /usr/src/app

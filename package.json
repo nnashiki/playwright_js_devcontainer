@@ -1,0 +1,23 @@
+{
+  "name": "playwright_js_devcontainer",
+  "version": "1.0.0",
+  "description": "playwright_js_devcontainer",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --project=chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nnashiki/playwright_js_devcontainer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnashiki/playwright_js_devcontainer/issues"
+  },
+  "homepage": "https://github.com/nnashiki/playwright_js_devcontainer#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.19.1"
+  }
+}
